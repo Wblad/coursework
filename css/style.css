@@ -1,0 +1,291 @@
+/*Стиль для всей странички*/
+*
+{
+	margin: 0;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+}
+html, body
+{
+	width:100%;
+	height:100%;	
+	overflow-x:hidden
+}
+/*Стиль для меню*/
+.menu
+{
+	position: fixed;
+	display: block;
+	float: left;
+	width: 270px;
+	height: 100vh;
+	left: 0;
+	top: 0;
+	background: #444444;
+	padding: 20px 0px 20px 20px;
+}
+.search input
+{
+	width: 250px;
+	margin-bottom: 25px;
+	border-radius: 15px;
+	font-size: 28px;
+	line-height: 42px;
+	border:none;
+}
+.result
+{
+	display: block;
+	height: 22px;
+	margin-left: 300px;
+	border-bottom: 2px solid;
+	text-align: middle;
+	text-decoration: none;
+	color: #000;
+	font-size: 18px;
+}
+.general p
+{
+	font-size: 36px;
+	line-height: 42px;
+	align-items: center;
+	color: #F90000;
+	margin-bottom: 20px;
+}
+.sort
+{
+	display: block;
+	list-style: none;
+	padding-left: 0;
+}
+.sort li a
+{
+	font-size: 36px;
+	line-height: 42px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.account p
+{
+	font-size: 28px;
+	line-height: 33px;
+	align-items: center;
+	color: #FFFFFF;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.a
+{
+	font-size: 28px;
+	line-height: 33px;
+	align-items: center;
+	color: #fff;
+	text-decoration: none; 
+}
+.user
+{
+	display: block;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.user p
+{
+	font-size: 28px;
+	line-height: 30px;
+	align-items: center;
+	color: #fff;
+	margin-bottom: 10px;
+}
+.exit
+{
+	text-decoration: none;
+	color: #F90000;
+	font-size: 28px;
+	align-items: center;
+}
+/*Стиль для оглавления*/
+.header
+{
+	display: block;
+	height: 95px;
+	width: 100%;
+}
+.name_page
+{
+	height: 90px;
+	width: 300px;
+	margin: 0 0 0 290px;
+}
+.name_page a
+{
+	text-decoration: none;
+}
+.name_page p
+{
+
+	font-size: 96px;
+	line-height: 112px;
+	align-items: center;
+	color: #000000;
+}
+.Hr
+{
+	margin-top: 5px;
+	margin-left: 290px;
+	width: 100%;
+	height: 10px;
+	background-color: #444444;
+}
+/*Основное содержание сайта*/
+.container
+{
+	display: block;
+	margin: 20px 20px 70px 300px;
+}
+.container2
+{
+	display: block;
+	margin: 20px 20px 0px 300px;
+}
+.container2 p
+{
+	font-size:28px;
+}
+.figure
+{
+	display: block;
+	width: 99.5%;
+	height: 130px;
+	margin-bottom: 10px;
+	padding: 10px;
+	background-color: #EAE9DA;
+}
+.figure2
+{
+	display: block;
+	width: 99.5%;
+	height: 100vh;
+	margin-bottom: 10px;
+	padding: 10px;
+	background-color: #EAE9DA;
+}
+.img
+{
+	float: left;
+	width: 200px;
+	height: 130px;
+	margin-right: 20px;
+}
+.img2
+{
+	float: left;
+	width: 400px;
+	height: 230px;
+	margin-right: 20px;
+}
+.titlearticle
+{
+	display: block;
+	height: 30px;
+	margin-bottom: 5px;	
+	overflow:hidden;
+	vertical-align: middle;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	font-size: 24px;
+	color: #444444;
+	transition: 0.1s;
+}
+.titlearticle:hover
+{
+	background-color: #D7D5B5;
+}
+.text
+{
+	display: block;
+	height: 75px;
+}
+.text p
+{
+	margin-bottom: 10px;
+	text-align: justify;
+}
+.text2
+{
+	display: block;
+}
+.text2 p
+{
+	margin-bottom: 10px;
+	text-align: justify;
+}
+.inform
+{
+	display: block;
+	float: right;
+	height: 30px;
+}
+.inform li
+{
+	float: left;
+	list-style-type: none;
+	font-size: 18px;
+	color: #444444;
+}
+.ul li
+{
+	vertical-align: middle;
+	margin-right: 10px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	color: #444444;
+}
+.input
+{
+	display: block;
+	width: 100%;
+	height: 60px;
+	border-radius: 5px;
+	border: 2px solid;
+}
+.addarticle textarea
+{
+	display: block;
+	width: 100%;
+	height: 40%;
+	border-radius: 5px;
+	border: 2px solid;
+}
+/*Стиль для footer*/
+.footer
+{
+	position: fixed;
+    bottom: 0;
+	height: 60px;
+	width: 100%;
+	margin-left: 290px;
+	background-color: #151515;
+}
+.footer ul
+{
+	padding-top: 20px;
+}
+.footer ul a
+{
+	padding-left: 10px;
+	list-style-type: none;
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 21px;
+	color: #959595;
+}
+.footer ul li
+{
+	display: inline-block;
+	margin-right: 10px;
+}
